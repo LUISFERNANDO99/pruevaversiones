@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="881.0" prefWidth="1268.0" styleClass="label" stylesheets="@../primer%20csss.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.ropa.FXMLController">
+   <children>
+      <ImageView fitHeight="909.0" fitWidth="1278.0" layoutX="-5.0" layoutY="-24.0" pickOnBounds="true">
+         <image>
+            <Image url="@imagenes/pasted-image-0-2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imag_Inventario" fitHeight="231.0" fitWidth="307.0" layoutX="144.0" layoutY="116.0" onMouseClicked="#Inventario" opacity="0.9" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@imagenes/descarga.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <Text fill="#070707" layoutX="217.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventario De Materiales" wrappingWidth="194.6708984375" />
+      <ImageView fx:id="image_ganancia" fitHeight="231.0" fitWidth="307.0" layoutX="829.0" layoutY="116.0" onMouseClicked="#Ganancias" opacity="0.9" pickOnBounds="true">
+         <image>
+            <Image url="@imagenes/depositphotos_194031510-stock-illustration-market-data-computer-screen-charts.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <Text layoutX="846.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ganancias" wrappingWidth="80.67089268565178" />
+      <ImageView fx:id="image_produccion" fitHeight="231.0" fitWidth="307.0" layoutX="153.0" layoutY="486.0" onMouseClicked="#produccion" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/images.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <Text layoutX="252.0" layoutY="705.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Produccion" />
+      <ImageView fx:id="img_cierra" fitHeight="83.0" fitWidth="109.0" layoutX="1158.0" onMouseClicked="#cierra" pickOnBounds="true">
+         <image>
+            <Image url="@imagenes/Close%20Sign_48px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

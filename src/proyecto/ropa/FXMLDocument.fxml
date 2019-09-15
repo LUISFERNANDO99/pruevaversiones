@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="881.0" prefWidth="1268.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.ropa.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="881.0" fitWidth="1268.0" pickOnBounds="true">
+         <image>
+            <Image url="@imagenes/descarga.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="306.0" fitWidth="284.0" layoutX="483.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/LOGOS.png" />
+         </image>
+      </ImageView>
+      <ProgressIndicator fx:id="p_carga" layoutX="600.0" layoutY="441.0" prefHeight="80.0" prefWidth="96.0" progress="0.0" />
+      <Button fx:id="btn_checa" layoutX="566.0" layoutY="558.0" mnemonicParsing="false" onAction="#Registro_usuarios" opacity="0.67" prefHeight="31.0" prefWidth="164.0" text="INICIAR" textAlignment="CENTER">
+         <font>
+            <Font name="Ebrima" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
